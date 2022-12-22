@@ -1,0 +1,41 @@
+.hero{
+    background-image: url('../../assets/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__main{
+
+        &-content{
+            width: 70%;
+            
+        }
+        &-text{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            gap: 1.5rem;
+
+            color: #fff;
+        }
+
+        &-btn{
+            width: 30%;
+            border: 1px solid #fff !important;
+            padding-inline: 1.5rem !important;
+            color: #fff !important;
+
+            padding-top: .8rem;
+            padding-bottom: .8rem;
+        }
+
+    }
+}

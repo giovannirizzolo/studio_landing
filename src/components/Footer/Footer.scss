@@ -1,0 +1,56 @@
+
+
+.footer{
+    a{
+        text-transform: capitalize !important;
+        color: #000 !important;
+        text-decoration: underline !important;
+    }
+
+    select{
+        all: unset;
+    }
+
+    background-color: #B18A76;
+    padding: 5rem;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__up{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__mid{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+
+        &--up, &--down{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+    &__sub{
+        display: flex;
+        justify-content: space-between;
+
+        &--social-icons{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 1rem;
+
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+}
